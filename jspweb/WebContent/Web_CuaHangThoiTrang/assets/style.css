@@ -1,0 +1,128 @@
+#header {
+    width: 100%;
+    background-color:whitesmoke;
+    margin-right: 50px;
+    height: 100px;
+}
+#container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text {
+    margin-top: 20px;
+}
+
+.btn-giohang {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.menu-doc {
+    width: 20%;
+    float: left;
+}
+
+.menu-doc ul li {
+    line-height: 10px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer {
+    background-color: darkgray;
+}
+
+.ketnoi {
+    list-style-type: none;
+}
+
+.ketnoi li {
+    display: inline;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.gioithieu {
+    color: cadetblue;
+    font-size: 20px;
+}
+
+nav .container-fluid .navbar-nav li a:hover {
+    background-color: darkgray;
+}
+
+.anh {
+    transition: transform 0.5s;
+}
+
+.anh:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.caption {
+    text-align: center;
+}
+
+.gia {
+    text-align: center;
+}
+
+.menu {
+    border-style: dashed;
+}
+
+.button {
+    border: 0;
+    padding: 10px 0;
+    font-size: 25 px;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+.dangnhap {
+    background: #FFCC33;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.facebook {
+    background: #3366CC;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.google {
+    background: #CC3333;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.buttonapdung {
+    border: 0;
+    padding: 10px 0;
+    font-size: 25 px;
+    font-weight: 5;
+    font-style: normal;
+    color: #ffffff;
+}
