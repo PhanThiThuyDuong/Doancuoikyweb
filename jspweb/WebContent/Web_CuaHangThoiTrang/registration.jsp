@@ -6,67 +6,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dang ki</title>
+    <title>Dang nhap</title>
 
-    <script src="assets/jquery/jquery.3.2.1.js "></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js "></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
     <script src="assets/bootstrap/js/parallax.min.js"></script>
 </head>
- <body>
-        <div class="body parallax-window" data-parallax="scroll" data-image-src="image/hinh.png">
-            <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 additional-shop-info">
-                            <ul class="list-unstyled list-inline">
-                                <li><i class="fa fa-phone"></i><span>+039 438 1694</span></li>
-                                <li><i class="fa fa-envelope-o"></i><span> thiduyen.dang.98@gmail.com</span></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-sm-6 additional-nav">
-                            <ul class="list-unstyled list-inline pull-right">
-                                <li><a href="login.html"style="color:orangered">Log In</a></li>
-                                <li><a href="dangki.html"style="color:orangered">Registration</a></li>
-                            </ul>
-                        </div>
+<body>
+    <div class="body parallax-window" data-parallax="scroll" data-image-src="image/Picture1.png">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 additional-shop-info">
+                        <ul class="list-unstyled list-inline">
+                            <li><i class="fa fa-phone"></i><span>+039 438 1694</span></li>
+                            <li><i class="fa fa-envelope-o"></i><span> thiduyen.dang.98@gmail.com</span></li>
+                        </ul>
                     </div>
-            </div> 
-            <div id="header">
-                    <div class="row">
-                            <div class="col-md-4 col-lg-4 col-sm-12" style="text-align: center;">
-                                    <div class="text">
-                                        <input type="search" placeholder="Nhập sản phẩm bạn muốn tìm" style="margin-top: 10px;width: 250px;height: 30px; border: 2px solid #A9A9A9;border-radius: 12px;">
-                                        <button class="btn btn-danger" style="font-size: 15px"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
-                                    </div>
-                            </div>
-                            <div class="col-md-4 col-lg-4 col-sm-12">
-                                    <div class="logo">
-                                        <img src="image/logoabc.png" width="120" height="100" style="margin-left: 140px">
-                                    </div>
-                            </div>
-                            <div class="col-md-4 col-lg-4 col-sm-12" style="text-align: center;">
-                                    <button class="btn btn-success btn-giohang"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ hàng</button>
-                            </div>
+                    <div class="col-md-6 col-sm-6 additional-nav">
+                        <ul class="list-unstyled list-inline pull-right">
+                            <li><a href="login.jsp">Log In</a></li>
+                            <li><a href="#">Registration</a></li>
+                        </ul>
                     </div>
-            </div> 
-            <div>
-                <nav class="navbar navbar-inverse" >
-                            <div class="container-fluid">
-                              <div class="navbar-header">
-                                <a class="navbar-brand" href="index.html">Beauty 2D</a>
-                              </div>
-                              <ul class="nav navbar-nav" style="margin-left: 360px;font-size: 18px ">
-                                <li class="active"><a href="index.html">Home</a></li>
-                                <li><a class="nav-link font-blonde-script text-white font-size-h5" href="product.htm">Product</a></li>
-                                <li><a href="#">Customer Care</a></li>
-                                <li><a href="#">Contact</a></li>
-                              </ul>
-                            </div>
-                </nav>
+                </div>
+            </div>        
+        <div id="header">
+                <div class="row">
+                        <div class="col-md-4 col-lg-4 col-sm-12" style="text-align: center;">
+                                <div class="text">
+                                    <input type="search" placeholder="Nhập sản phẩm bạn muốn tìm" style="margin-top: 10px;width: 250px;height: 30px; border: 2px solid #A9A9A9;border-radius: 12px;">
+                                    <button class="btn btn-danger" style="font-size: 15px"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+                                </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                                <div class="logo">
+                                    <img src="image/logoabc.png" width="120" height="100" style="margin-left: 140px">
+                                </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12" style="text-align: center;">
+                                <button class="btn btn-success btn-giohang"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ hàng</button>
+                        </div>
+                </div>
+        </div>
+        <nav class="navbar navbar-inverse" >
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.jsp">Beauty 2D</a>
+              </div>
+              <ul class="nav navbar-nav" style="margin-left: 360px;font-size: 18px ">
+                <li class="active"><a href="index.jsp">Home</a></li>
+                <li><a class="nav-link font-blonde-script text-white font-size-h5" href="product.jsp">Product</a></li>
+                <li><a href="#">Customer Care</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
             </div>
-            <div class="row">
+          </nav>
+          <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <form style="background-color:rgb(247, 251, 255) ;padding:30px 20px;opacity: 0.8;">
@@ -119,67 +119,32 @@
             <div class="col-md-4"></div>
             </div>
             <br> <hr>
-             <!--footer-->
-             <div id="footer">
-                <div class="row">
-                    <div class="col-md-7">
-                        <p style="color: white">CÔNG TY TNHH BEAUTY</p>
-                        <p style="color: white">Email: thiduyen.dang.98@gmail.com</p>
-                        <p style="color: white">Hotline: 01684348350</p>
-                        <p style="color: white">Copyright © 2013, Beauty Shop</p>
-                        <p>Phát triển bởi Đặng Thị Duyên - Phan Thị Thùy Dương</p>
-                    </div>
-                    <div class="col-md-5">
-                        <div>
-                            <span style="border-bottom: 1px solid gray;margin-top: 
-                                    10px;font-size: 25px;color:black;margin-left: 20px;">Kết nối với chúng tôi</span>
-                        </div>
-                        <br>
-                        <ul class="ketnoi ">
-                            <li>
-                                <a href="https://www.facebook.com/profile.php?id=100007916340603"><img class="icon" src="image/logo/facebook.png" style="width: 10%;"></a>
-                            </li>
-                            <li>
-                                <a href="https://plus.google.com/discover"><img class="icon" src="image/logo/google-plus.png" alt=""style="width: 10%;"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/"><img class="icon" src="image/logo/instagram.png" alt=""style="width: 10%;"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/"><img class="icon" src="image/logo/linkedin.png" alt=""style="width: 10%;"></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/?lang=vi"><img class="icon" src="image/logo/twitter.png" alt=""style="width: 10%;"></a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                </div>
-            </div>
-</div>
-        </div>
 
-        
-        <script>
-                // khai bao su dung Jquery
-                $(document).ready(function() {
-                    // Su kien scoll cua window
-        
-                    $(window).scroll(function() {
-                        // neu tao do scroll hien tai >50px
-                        if ($(window).scrollTop() >= 50) {
-                            // chinh css margin top = 0
-                            $('nav.navbar').css("margin-top", "0px");
-                            // add them class cau hinh fixed thanh menu
-                            $('nav.navbar').addClass("navbar-fixed-top");
-                        } else {
-                            $('nav.navbar').css("margin-top", "5px");
-                            $('nav.navbar').removeClass("navbar-fixed-top");
-                        }
-                    })
-                })
-            </script>
- </body>
- 
- 
- 
+        <!--footer-->
+        <div class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 padding-top-10">
+                      2018 © Beauty 2D Shop UI. ALL Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                      <br>
+                      <p>Phát triển bởi Đặng Thị Duyên - Phan Thị Thùy Dương</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                      <ul class="social-footer list-unstyled list-inline pull-right">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
+                      </ul>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+</body>
+</html>
